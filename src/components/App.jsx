@@ -23,7 +23,7 @@ export class App extends Component {
     modalImage: '',
   };
 
-  async componentDidUpdate(prevProps, prevState) {
+  async componentDidUpdate(__, prevState) {
     try {
       if (this.state.isFormSubmit === true) {
         const response = await axios.get(

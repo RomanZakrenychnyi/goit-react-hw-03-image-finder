@@ -15,10 +15,3 @@
   max-width: calc(100vw - 48px);
   max-height: calc(100vh - 24px);
 }
-
-.img {
-  margin: 0 auto;
-  display: block;
-  max-width: 80%;
-  height: auto;
-}
